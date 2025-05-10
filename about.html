@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Fashion Closet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        
+        header {
+            background-color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-img {
+            max-height: 50px;
+            margin-right: 15px;
+        }
+        
+        .logo-text {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #007bff;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+        }
+        
+        nav ul li a:hover {
+            color: #007bff;
+        }
+        
+        .about-section {
+            padding: 60px 40px;
+            text-align: center;
+            background-color: #ffffff;
+            margin: 40px auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 1200px;
+        }
+        
+        .about-section h1 {
+            font-size: 3rem;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        
+        .about-section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .team-section {
+            padding: 60px 20px;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        
+        .team-section h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        
+        .team-members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        
+        .team-member {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        
+        .team-member h3 {
+            font-size: 1.5rem;
+            color: #007bff;
+            margin-bottom: 5px;
+        }
+        
+        .team-member p {
+            font-size: 1rem;
+            color: #666;
+        }
+        
+        footer {
+            background-color: #232f3e;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: whitesmoke;
+            margin-top: 40px;
+        }
+        
+        footer .social-links a {
+            color: #fff;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+        
+        footer .social-links a:hover {
+            color: #007bff;
+        }
+        
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Anna's Closet Logo" class="logo-img">
+            <h1 class="logo-text">Fashion Closet</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="shop.php">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-section">
+        <h1>About Fashion Closet</h1>
+        <p>
+            Welcome to Fashion Closet, your one-stop destination for trendy and stylish clothing. Established with the vision of redefining fashion, we offer a wide range of apparel that blends comfort with elegance. Our commitment to quality and customer satisfaction
+            has made us a trusted name in the fashion industry. Whether you're looking for the latest trends or timeless classics, Fashion Closet has something for everyone.
+        </p>
+    </section>
+
+    <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="images/team1.jpg" alt="Team Member">
+                <h3>MIS GROUP 10 MEMBERS</h3>
+                <p>Founder, CEO & Marketing Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team2.jpg" alt="Team Member">
+                <h3>FREDERICK NNUBENG</h3>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team3.jpg" alt="Team Member">
+                <h3>GROUP 10 MEMBERS</h3>
+                <p>Co Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fashion Closet. All rights reserved.</p>
+        <br><br>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">&#x1F426;</a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">&#x1F426;</a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">&#x1F426;</a>
+        </div>
+        <p>Need help? <a href="#">Contact our support team</a>.</p>
+        <p>Developed by <a href="#">Fashion Closet Dev Team</a></p>
+    </footer>
+</body>
+
+</html>
